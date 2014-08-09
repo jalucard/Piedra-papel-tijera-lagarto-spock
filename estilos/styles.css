@@ -1,0 +1,132 @@
+body
+{
+	background-image: url("../images/red.png");
+	background-position: center;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+}
+
+header
+{
+	background: #4972B5;
+	border: 1px solid #DBE1EB;
+	border-radius: 0.5em;
+	color: #FFF;
+	margin: 1em 13em;
+}
+
+h1
+{
+	font-family: 'Bangers', cursive;
+	text-shadow: rgba(0,0,0,0.7) 5px 5px 6px;
+	margin: 0.3em 0 0.1em 0;
+}
+
+h4
+{
+	margin: 0 0;
+}
+
+figure
+{
+	margin: 2em 0;
+	width: 30%;
+}
+
+footer
+{
+	background-color:#4972B5; 
+	font-style: italic;
+	padding: 0.2em 0;
+	width: 100%;
+}
+
+figure img
+{
+	box-shadow: rgba(0,0,0,0.6) 5px 5px 10px;
+	opacity: 0.95;
+}
+
+#botonera
+{
+	margin: 0 0 2em 0;
+}
+
+#botonera ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#botonera li
+{
+	display: inline-block;
+	margin: 1em 0;
+}
+
+#botonera li input 
+{
+	background: #4972B5;
+	border: 1px solid #DBE1EB;
+	border-radius: 0.5em;
+	box-shadow: rgba(0,0,0,0.6) 2px 2px 7px;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	color: #FFF;
+	margin: 0 1em;
+	padding: 0.5em 0.5em;
+	transition: all 0.05s linear;
+	-webkit-transition: all 0.05s linear;
+	-moz-transition: all 0.05s linear;
+}
+
+#botonera li input:hover
+{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+}
+
+#ganador
+{
+	font-size: 1.6em;
+	margin: 1em 2em 0 0;
+	padding: 0.5em 0.5em;
+	text-shadow: rgba(0,0,0,0.7) 3px 3px 6px;;
+	width: 30%;
+}
+
+#ganador, #botonera
+{
+	display: inline-block;
+}
+
+#icoface, #icotwit
+{
+	cursor: pointer;
+	display: inline-block;
+	height: 3.5em;
+	margin: 0 0.7em;
+	vertical-align: top;
+	width: 3.5em;
+}
+
+#reglas
+{
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.6) 5px 5px 10px;
+	font-size: 1.1em;
+	margin: 0 2em 0 0;
+	opacity: 0.85;
+	padding: 0.3em;
+	text-align: justify;
+	width: 35%;
+}
+
+#reglas, figure
+{
+	display: inline-block;
+	vertical-align: middle;
+}
